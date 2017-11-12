@@ -40,7 +40,7 @@ if(a<0)
 alphac = (-b+sqrt(b^2-3*a*c))/(3*a);
 elseif(a>0)
 alphac = (-b-sqrt(b^2-3*a*c))/(3*a);
-elseif((a=0)&&(b<0))
+elseif((a==0)&&(b<0))
 alphac = -c/(2*b);
 else
 alphac=maxa;  %interpolation yields no useful points for alpha
